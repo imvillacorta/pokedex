@@ -1,4 +1,4 @@
-# Desafio Front End [Verx]
+# Desafio Front End
 
 Este projeto foi gerado com as seguintes tecnologias.
 
@@ -6,7 +6,7 @@ Este projeto foi gerado com as seguintes tecnologias.
 
 Aplicação web que aborda a criação de uma pokedex.
 
-O projeto consiste em realizar uma listagem de pokemons que possa ser filtrado através de um campo de buscae e também que exista a possibilidade de exibir mais detalhes do pokemon listado.
+O projeto consiste em realizar uma listagem de pokemons que possa ser filtrado através de um campo de busca e também que exista a possibilidade de exibir mais detalhes do pokemon listado.
 
 Estou aberto a sugestões e melhorias.
 
@@ -25,8 +25,9 @@ npm i
 ### - Executando o front end
 Para rodar a aplicação use o seguinte comando:
 ```
-ng serve
+npm run start
 ```
 Feito isso navegue para http://localhost:4200
+
 ![Build](https://i2.wp.com/perdidas.com.br/wp-content/uploads/2018/09/elmo-fogo.gif?resize=540%2C368)
 Pronto, a aplicação vai estar rodando, faça seu cadastro para conferir o programa de fidelidade Dotz, espero ter alcançado o objeto do desafio, vou ficar feliz em receber o feedback, até mais.
