@@ -1,0 +1,22 @@
+@import "../../../scss/variables";
+@import "../../../scss/functions";
+
+.bg-busca {
+    background: $cinza;
+    padding: rem-calc(15);
+}
+
+.input-busca {
+    background: url("../../../assets/img/lupa.png") no-repeat rgba($color: $branco, $alpha: 0.1);
+    background-size: rem-calc(20) rem-calc(20);
+    background-position: 98% center;
+    border: none;
+    color: $branco;
+    &:focus {
+        box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+    }
+}
+
+::placeholder {
+    color: $branco;
+}

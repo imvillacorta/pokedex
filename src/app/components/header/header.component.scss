@@ -1,0 +1,14 @@
+@import "./../../../scss/variables";
+@import "../../../scss/functions";
+
+header {
+    background: $preto;
+    height: rem-calc(130);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: rem-calc(200);
+    }
+}

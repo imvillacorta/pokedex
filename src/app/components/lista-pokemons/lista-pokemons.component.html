@@ -1,0 +1,43 @@
+<app-busca-pokemon (pokemon)="pokemonFiltrado($event)"></app-busca-pokemon>
+
+<div class="container container-bg">
+    <div class="row">
+        <div class="col-md-6 col-lg-4 col-sm-12"
+             *ngFor="let poke of infoPokemon">
+
+            <div class="base-pokemon cursor"
+                 (click)="detalhes(poke.status.id)">
+                <img [src]="poke?.status?.sprites?.other.dream_world.front_default">
+            </div>
+
+            <div class="numero-pokemon">
+                <span>
+                    Nº
+                    {{
+                    poke?.status?.id
+                    }}
+                </span>
+            </div>
+            <div class="nome-pokemon">
+                <h5 class="cursor"
+                    (click)="detalhes(poke.status.id)">
+                    {{poke.name | titlecase}}
+                </h5>
+            </div>
+            <div class="tipo-pokemon">
+                <ul>
+                    <li *ngFor="let value of poke?.status?.types">
+                        {{value.type.name | titlecase}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-info my-2"
+         role="alert"
+         *ngIf="!buscaVazia">
+        Nenhum pokemon foi encontrado com os dados informados!
+    </div>
+
+</div>

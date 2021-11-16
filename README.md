@@ -1,27 +1,32 @@
-# Pokedex
+# Desafio Front End [Verx]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+Este projeto foi gerado com as seguintes tecnologias.
 
-## Development server
+![Tecnologias](src/assets/img/tecnologias.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Aplicação web que aborda a criação de uma pokedex.
 
-## Code scaffolding
+O projeto consiste em realizar uma listagem de pokemons que possa ser filtrado através de um campo de buscae e também que exista a possibilidade de exibir mais detalhes do pokemon listado.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Estou aberto a sugestões e melhorias.
 
-## Build
+## Pré requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Instalar [NodeJS](https://nodejs.org/en/)
+- Instalar [Angular](https://angular.io/guide/setup-local)
+## Executando o projeto
 
-## Running unit tests
+### - Instalando as dependências
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Após clonar o projeto é preciso instalar as dependências, o projeto final esta na branch 'main', use o seguinte comando para instalar as dependências:
+```
+npm i
+```
+### - Executando o front end
+Para rodar a aplicação use o seguinte comando:
+```
+ng serve
+```
+Feito isso navegue para http://localhost:4200
+![Build](https://i2.wp.com/perdidas.com.br/wp-content/uploads/2018/09/elmo-fogo.gif?resize=540%2C368)
+Pronto, a aplicação vai estar rodando, faça seu cadastro para conferir o programa de fidelidade Dotz, espero ter alcançado o objeto do desafio, vou ficar feliz em receber o feedback, até mais.

@@ -1,0 +1,42 @@
+<div class="container card">
+    <div class="pokemon">
+        <img [src]="pokemon?.sprites?.other.dream_world.front_default">
+        <div>
+            <h1>
+                {{pokemon.name | titlecase}}
+            </h1>
+        </div>
+    </div>
+    <div class="caracteristica mt-3">
+        <h3>
+            Características
+        </h3>
+
+        <ul class="list-group">
+            <li *ngFor="let caracteristica of pokemon.stats"
+                class="list-group-item d-flex justify-content-between align-items-center">
+                {{caracteristica.stat.name | titlecase}}
+                <span class="badge bg-info rounded-pill">
+                    {{caracteristica.base_stat}}
+                </span>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="d-flex justify-content-between align-items-center mt-3">
+
+        <div class="tipo-pokemon">
+            <ul>
+                <li *ngFor="let value of pokemon?.types">
+                    {{value.type.name | titlecase}}
+                </li>
+            </ul>
+        </div>
+
+        <div class="text-end">
+            <button class="btn btn-secondary"
+                    [routerLink]="['']">Voltar</button>
+        </div>
+    </div>
+</div>

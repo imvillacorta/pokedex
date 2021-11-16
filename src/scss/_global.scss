@@ -1,0 +1,41 @@
+body {
+    background: url("../assets/img/bg.png") repeat;
+    font-family: 'open-sans';
+}
+
+@font-face {
+    font-family: "open-sans";
+    src: url("../assets/fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url("../assets/fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "open-sans-italic";
+    src: url("../assets/fonts/OpenSans-Italic.ttf");
+}
+
+.container-bg {
+    background: $branco;
+    padding-bottom: 3px;
+}
+
+.tipo-pokemon {
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            display: inline;
+            margin-right: 10px;
+            background: $cinza-claro;
+            border-radius: 3px;
+            text-align: center;
+            font-size: 11px;
+            padding: rem-calc(3);
+            color: $branco;
+        }
+    }
+}

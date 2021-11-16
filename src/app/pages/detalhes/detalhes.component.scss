@@ -1,0 +1,31 @@
+@import "../../../scss/variables";
+@import "../../../scss/functions";
+
+.card {
+    margin-top: rem-calc(15);
+    background: $branco;
+    border-radius: 10px;
+    padding: rem-calc(15);
+
+    .pokemon {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        img {
+            width: rem-calc(200);
+            height: rem-calc(200);
+        }
+        h1 {
+            font-family: "open-sans-bold";
+            color: $cinza;
+        }
+    }
+
+    .caracteristica {
+        h3 {
+            font-family: "open-sans-italic";
+            color: $azul-claro;
+        }
+    }
+}

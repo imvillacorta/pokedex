@@ -1,0 +1,33 @@
+@import "../../../scss/variables";
+@import "../../../scss/functions";
+
+.base-pokemon {
+    background: #f2f2f2;
+    border-radius: rem-calc(5);
+    margin: rem-calc(10) 0;
+    padding: rem-calc(20);
+    text-align: center;
+    img {
+        width: rem-calc(200);
+        height: rem-calc(200);
+    }
+}
+
+.numero-pokemon {
+    span {
+        font-family: "open-sans-bold";
+        font-size: 14px;
+        color: $cinza-claro;
+    }
+}
+
+.nome-pokemon {
+    h5 {
+        font-family: "open-sans-bold";
+        color: $cinza;
+    }
+}
+
+.cursor {
+    cursor: pointer;
+}
