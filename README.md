@@ -30,4 +30,5 @@ npm run start
 Feito isso navegue para http://localhost:4200
 
 ![Build](https://i2.wp.com/perdidas.com.br/wp-content/uploads/2018/09/elmo-fogo.gif?resize=540%2C368)
-Pronto, a aplicação vai estar rodando, faça seu cadastro para conferir o programa de fidelidade Dotz, espero ter alcançado o objeto do desafio, vou ficar feliz em receber o feedback, até mais.
+
+Pronto, a aplicação vai estar rodando, espero ter alcançado o objetivo do desafio, vou ficar feliz em receber o feedback, até mais.
